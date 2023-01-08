@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MJPEGClientSocket" extends="Task"> 
+
+  <interface>
+    <field id="on_open" type="bool" value="false"/>
+    <field id="on_close" type="bool" value="false"/>
+    <field id="on_new_jpeg" type="String" value="invalid"/>
+    <field id="close" type="bool" value="false"/>
+	</interface>
+
+  <script type="text/brightscript" uri="pkg:/components/MJPEGClientSocketTask.brs" />
+  <script type="text/brightscript" uri="pkg:/components/MJPEGClientSocket.brs" />
+
+	<children>
+  </children>
+
+</component>

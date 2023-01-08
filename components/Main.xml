@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Main" extends="Scene"> 
+
+    <interface>
+    </interface>
+
+    <children>
+        <Label id="myLabel" 
+            text="Hello World!"
+            width="1280" 
+            height="720" 
+            horizAlign="center"
+            vertAlign="center"
+            />
+        <Poster
+            id="MJPEGViewer"
+            width="512" 
+            height="288"
+            uri = "http://sdktestinglab.com/Tutorial/images/videopg.jpg"
+            />
+        <Button
+            id = "closeNetBtn"
+            text = "Close Network"
+            showFocusFootprint = "true"
+            minWidth = "240" />
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/Main.brs" />
+
+</component>
